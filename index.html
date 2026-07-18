@@ -1,29 +1,109 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>glebchik_gg</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+
 </head>
-<html>
-    <h1>glebchik_gg</h1>
-    <h2>я глеб. это мой сайт</h2>
-    не знаю че здесь написать пока. приходите позже
-    ))
+<body>
 
-<img src="images\3407ef26e693d2b47b660d0371d7c95c.jpg" alt="leslie">
+	<div class="container">
+		<section class="gallery">
 
-    <h2 id="counter">0</h2>
+			<div class="frame">
+				<div class="frame__content">
+					<h2>Leslie Burke</h2>
+				</div>
+			</div>
 
-<button onclick="increase()">
-    Нажми меня
-</button>
+			<div class="frame">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/2.jpg)"></div>
+				</div>
+			</div>
 
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media frame-media_right" src="media/a4a65d3d78b424b55ae49230a87eaa09.mp4" autoplay loop muted></video>
+				</div>
+			</div>
 
-<script>
-    let count = 0;
+			<div class="frame"></div>
 
-    function increase() {
-        count++;
-        document.getElementById("counter").innerText = count;
-    }
-</script>
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h3>Bridge to Terabithia</h3>
+					<p>is a 2007 American fantasy drama film directed by Gábor Csupó (in his directorial debut) from a screenplay by David L. Paterson and Jeff Stockwell.</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/1.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/3.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>AnnaSophia Robb</h3>
+					<p>(born December 8, 1993) is an American actress, model, and singer.</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/4.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame">
+				<div class="frame__content">
+					<video class="frame-media frame-media_left" src="media/a4a65d3d78b424b55ae49230a87eaa09.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+			<div class="frame"></div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/5.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media" src="media/a4a65d3d78b424b55ae49230a87eaa09.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content">© glebchik_gg</div>
+			</div>
+
+		</section>
+	</div>
+
+	<img class="soundbutton paused" src="images/sound.gif" alt="Alt">
+	<audio class="audio" src="media/ambient.mp3" loop></audio>
+
+</body>
 </html>
